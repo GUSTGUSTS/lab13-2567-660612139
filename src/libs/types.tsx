@@ -19,7 +19,8 @@ export interface movieIdPageParams {
     id: string;
   };
 }
-
 export interface footerProps {
-  // define props list here
+  year: string;
+  fullName: string;
+  studentId: string;
 }
